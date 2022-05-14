@@ -13,6 +13,7 @@ public class GameManager : GenericSingleton<GameManager>
     [SerializeField]
     GameObject EnemyAreaSet;
 
+    //Enbaling GameScene
     private void Start()
     {
         playerFireAreaSet.SetActive(true);
@@ -20,7 +21,7 @@ public class GameManager : GenericSingleton<GameManager>
         EnemyAreaSet.SetActive(true);
         SpwanPlayerList();
     }
-
+    //For Instaiate players after 3 sec
     private async void SpwanPlayerList()
     {
         await new WaitForSeconds(0.3f);

@@ -1,0 +1,4 @@
+#Sat May 14 20:34:11 IST 2022
+base.0=/Volumes/HDD3/SpwanShootingObjects/SpwanShootingObjects/Temp/gradleOut/launcher/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

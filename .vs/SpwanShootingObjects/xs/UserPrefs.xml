@@ -1,15 +1,22 @@
-﻿<Properties StartupConfiguration="{DACD5609-6BCA-59BF-0D79-42B5F09D2D62}|">
+﻿<Properties>
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="26" Column="1" />
-      <File FileName="Assets/Scripts/EnemyController.cs" Line="6" Column="45" />
-      <File FileName="Assets/Enums/PlayerState.cs" Line="9" Column="2" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="5" Column="45" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="4" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SpwanShootingObjects" expanded="True" selected="True" />
+          <Node name="SpwanShootingObjects" expanded="True">
+            <Node name="Assembly-CSharp" expanded="True">
+              <Node name="Assets" expanded="True">
+                <Node name="Scripts" expanded="True">
+                  <Node name="Controllers" expanded="True" />
+                  <Node name="Enums" expanded="True" />
+                  <Node name="GameManager.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

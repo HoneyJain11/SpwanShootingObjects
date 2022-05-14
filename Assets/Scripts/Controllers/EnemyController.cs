@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+// Class is dealing with activity occur on enemy Object
 public class EnemyController : MonoBehaviour
 {
     [SerializeField]
@@ -12,6 +13,7 @@ public class EnemyController : MonoBehaviour
     [SerializeField]
     GameObject healthbar;
     Vector2 healthBarLocalScale;
+
     private void Start()
     {
         healthBarLocalScale = healthbar.transform.localScale;
@@ -21,11 +23,16 @@ public class EnemyController : MonoBehaviour
     {
         if(collision.GetComponent<Rigidbody2D>())
         {
-            Debug.Log("BulletCollided");
-            healthAmount -= decreaseHealthAmount;
-            healthBarLocalScale.x = healthAmount / 1000;
-            healthbar.transform.localScale = healthBarLocalScale;
-            collision.gameObject.SetActive(false);
+            TakeDamage(collision);
         }
+    }
+
+    //Enemy Affecting by bullet and reducing the healthbar
+    private void TakeDamage(Collider2D collision)
+    {
+        healthAmount -= decreaseHealthAmount;
+        healthBarLocalScale.x = healthAmount / 1000;
+        healthbar.transform.localScale = healthBarLocalScale;
+        collision.gameObject.SetActive(false);
     }
 }
