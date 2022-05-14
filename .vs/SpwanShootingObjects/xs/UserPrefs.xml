@@ -1,8 +1,10 @@
 ﻿<Properties StartupConfiguration="{DACD5609-6BCA-59BF-0D79-42B5F09D2D62}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="12" Column="6" />
-      <File FileName="Assets/Scripts/EnemyController.cs" Line="7" Column="5" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="26" Column="1" />
+      <File FileName="Assets/Scripts/EnemyController.cs" Line="6" Column="45" />
+      <File FileName="Assets/Enums/PlayerState.cs" Line="9" Column="2" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="5" Column="45" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
