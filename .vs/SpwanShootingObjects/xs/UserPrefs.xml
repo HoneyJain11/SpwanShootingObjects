@@ -1,22 +1,13 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
+﻿<Properties StartupConfiguration="{DACD5609-6BCA-59BF-0D79-42B5F09D2D62}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyController.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="23" Column="33" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="12" Column="6" />
+      <File FileName="Assets/Scripts/EnemyController.cs" Line="7" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SpwanShootingObjects" expanded="True">
-            <Node name="Assembly-CSharp" expanded="True">
-              <Node name="Assets" expanded="True">
-                <Node name="Scripts" expanded="True">
-                  <Node name="ObjectPooler" expanded="True" />
-                  <Node name="Singleton" expanded="True" />
-                  <Node name="PlayerController.cs" selected="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="SpwanShootingObjects" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
